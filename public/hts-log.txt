@@ -1,0 +1,12 @@
+HTTrack3.49-2 launched on Fri, 04 Feb 2022 19:21:43 at http://https://socialproofo.com/demo/
+(httrack http://https://socialproofo.com/demo/ -O LOCALDIRECTORY )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:22:23	Error: 	"Not Found" (404) at link https://socialproofo.com/demo/https: (from https://socialproofo.com/demo/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 47 seconds : 46 links scanned, 44 files written (1775164 bytes overall) [650600 bytes received at 13842 bytes/sec], 1551780 bytes transferred using HTTP compression in 32 files, ratio 25%, 7.6 requests per connection
+(1 errors, 0 warnings, 0 messages)
