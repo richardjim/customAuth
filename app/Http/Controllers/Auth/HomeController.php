@@ -10,6 +10,7 @@ class HomeController extends Controller
     public function home()
     {
 
-      return view('auth.home');
+      // return view('auth.home');
+      return redirect()->route('index');
     }
 }

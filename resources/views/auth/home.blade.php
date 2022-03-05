@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
@@ -9,103 +8,34 @@
 
                     <meta name="description" content="missing_translation: dashboardmeta_description" />
                             <meta name="keywords" content="missing_translation: dashboardmeta_keywords" />
+                            <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+                            <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+                            <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+                            <link rel="alternate" href="https://socialproofo.com/demo/dashboard" hreflang="x-default" />
+                            <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+                            <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+                            <link href="https://socialproofo.com/demo/uploads/favicon/f9ab739e0e0982a8b98ecd6e7506656e.png" rel="shortcut icon" />
+                
+                <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
         
+                <link href="https://socialproofo.com/demo/themes/altum/assets/css/bootstrap-dark.min.css?v=1300" id="css_theme_style" rel="stylesheet" media="screen,print">
+                            <link href="https://socialproofo.com/demo/themes/altum/assets/css/custom.css?v=1300" rel="stylesheet" media="screen,print">
+                            <link href="https://socialproofo.com/demo/themes/altum/assets/css/animate.min.css?v=1300" rel="stylesheet" media="screen,print">
+                            <script src="https://cdn.jsdelivr.net/npm/vue-moment@4.1.0/dist/vue-moment.min.js"></script>
+                          
+                
+                             {{-- Pixel Code for https://pixel.socialproofo.com/  --}}
+        <script defer src="https://pixel.socialproofo.com/pixel/BRd8zqCcSdrWOqof"></script>
+        <!-- END Pixel Code -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script async src="https://socialproofo.com/demo/pixel/socialproofo"></script>
+                
+                    </head>
         
+            <body class=" " data-theme-style="dark">
         
-        <link rel="alternate" href="https://socialproofo.com/demo/dashboard" hreflang="x-default" />
-        
-                    <link href="https://socialproofo.com/demo/uploads/favicon/f9ab739e0e0982a8b98ecd6e7506656e.png" rel="shortcut icon" />
-        
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
-
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;display=swap" rel="stylesheet">
-
-        <link href="themes/altum/assets/css/bootstrap-dark.min1eb2.css?v=1200" id="css_theme_style" rel="stylesheet" media="screen,print">
-        <link href="themes/altum/assets/css/custom1eb2.css?v=1200" rel="stylesheet" media="screen">
-        <link href="themes/altum/assets/css/animate.min1eb2.css?v=1200" rel="stylesheet" media="screen">
-        <link href="themes/altum/assets/css/pixel1eb2.css?v=1200" rel="stylesheet" media="screen">
-                    <!-- Pixel Code for https://pixel.socialproofo.com/ -->
-<script defer src="https://pixel.socialproofo.com/pixel/BRd8zqCcSdrWOqof"></script>
-<!-- END Pixel Code -->
-
-<script async src="https://socialproofo.com/demo/pixel/socialproofo"></script>
-        
-            </head>
-
-    <body class=" " data-theme-style="light">
         
 <script> if(window.location !== window.parent.location){ window.top.location.href = "https:\/\/socialproofo.com\/demo\/"; } </script>
-
-<style>
-    .ac-wrapper {
-        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-        min-height: 4rem;
-        background: #161A38;
-        padding: .5rem 1rem;
-        display: flex;
-        flex-direction: column;
-    }
-    @media (min-width: 992px) {
-        .ac-wrapper {
-            justify-content: space-between;
-            align-items: center;
-            flex-direction: row;
-            min-height: 3rem;
-            padding: .5rem 2rem;
-        }
-    }
-    .ac-altumcode-link {
-        color: white;
-        display: flex;
-        align-items: center;
-        font-size: .85rem;
-        margin-bottom: .5rem;
-    }
-    @media (min-width: 992px) {
-        .ac-altumcode-link {
-            margin-bottom: 0;
-        }
-    }
-    .ac-altumcode-link:hover {
-        text-decoration: none;
-        color: white;
-    }
-    .ac-altumcode-image {
-        width: 1rem;
-        height:auto;
-        margin-right: 1rem;
-    }
-    .ac-primary {
-        padding: .25rem 1.25rem;
-        background: #3f88fd;
-        color: white;
-        border-radius: .25rem;
-        font-size: .95rem;
-        transition: all .3s linear !important;
-        white-space: nowrap;
-    }
-    .ac-primary:hover {
-        text-decoration: none;
-        background: #3370d2;
-        color: white;
-    }
-
-    .ac-secondary {
-        padding: .25rem 0;
-        color: hsl(255, 85%, 90%);
-        border-radius: .25rem;
-        font-size: .95rem;
-        transition: all .3s linear !important;
-        white-space: nowrap;
-        margin-right: 1.25rem;
-    }
-    .ac-secondary:hover {
-        text-decoration: none;
-        color: hsl(255, 85%, 70%);
-    }
-</style>
-
-                        
 
         
 <nav class="navbar navbar-main  navbar-expand-lg navbar-light bg-white">
@@ -124,26 +54,26 @@
                 
                 @auth                            
                 
-                    <li class="nav-item"><a class="nav-link" href="https://socialproofo.com/demo/dashboard"> Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href=""> Dashboard</a></li>
 
                     <li class="dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
                             <img src="https://www.gravatar.com/avatar/21232f297a57a5a743894a0e4a801fc3?s=80&d=mp&r=g" class="navbar-avatar mr-1" loading="lazy" />
-                            AltumCode <span class="caret"></span>
+                            {{auth()->user()->name}} <span class="caret"></span>
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-right">
                                                           
                                                          
-                                                            <a class="dropdown-item" href="https://socialproofo.com/demo/admin"><i class="fa fa-fw fa-sm fa-user-shield mr-1"></i>{{auth()->user()->name}}</a> 
+                                                            <a class="dropdown-item" href="demo/admin"><i class="fa fa-fw fa-sm fa-user-shield mr-1"></i>{{auth()->user()->name}}</a> 
                                                            
-                                                        <a class="dropdown-item" href="https://socialproofo.com/demo/account"><i class="fa fa-fw fa-sm fa-wrench mr-1"></i> Account</a>
-                            <a class="dropdown-item" href="https://socialproofo.com/demo/account-plan"><i class="fa fa-fw fa-sm fa-box-open mr-1"></i> Plan</a>
+                                                        <a class="dropdown-item" href="demo/account"><i class="fa fa-fw fa-sm fa-wrench mr-1"></i> Account</a>
+                            <a class="dropdown-item" href="demo/account-plan"><i class="fa fa-fw fa-sm fa-box-open mr-1"></i> Plan</a>
 
-                                                        <a class="dropdown-item" href="https://socialproofo.com/demo/account-payments"><i class="fa fa-fw fa-sm fa-dollar-sign mr-1"></i> Payments</a>
+                                                        <a class="dropdown-item" href="demo/account-payments"><i class="fa fa-fw fa-sm fa-dollar-sign mr-1"></i> Payments</a>
 
                                                             
-                            <a class="dropdown-item" href="https://socialproofo.com/demo/account-api"><i class="fa fa-fw fa-sm fa-code mr-1"></i> API</a>
+                            <a class="dropdown-item" href="demo/account-api"><i class="fa fa-fw fa-sm fa-code mr-1"></i> API</a>
 
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="{{route('logout')}}"><i class="fa fa-fw fa-sm fa-sign-out-alt mr-1"></i> Logout</a>
@@ -156,8 +86,8 @@
     </div>
 </nav>
 
-        
-        <main>
+
+        <main id="app">
             
 <header class="header">
     <div class="container">
@@ -170,7 +100,7 @@
             <span class="badge badge-success">Free Plan</span>
 
             
-                            <span>(<a href="https://socialproofo.com/demo/plan/upgrade">Renew/Upgrade</a>)</span>
+                            <span>(<a href="demo/plan/upgrade">Renew/Upgrade</a>)</span>
                     </p>
 
                                 <p class="text-muted">
@@ -179,7 +109,7 @@
     </div>
 </header>
 
-<section class="container">
+<section  class="container">
 
     
     <div class="mt-5 d-flex justify-content-between">
@@ -202,7 +132,7 @@
 
                         <div class="dropdown-divider"></div>
 
-                        <form action="" method="get" role="form">
+                       <form action="" method="get" role="form">
                             <div class="form-group px-4">
                                 <label for="filters_search" class="small">Search</label>
                                 <input type="search" name="search" id="filters_search" class="form-control form-control-sm" value="" />
@@ -263,77 +193,151 @@
             </div>
         </div>
     </div>
-
-            <div class="table-responsive table-custom-container mt-3">
-            <table class="table table-custom">
-                <thead>
-                <tr>
-                    <th>Campaign</th>
-                    <th class="d-none d-md-table-cell">Launched on</th>
-                    <th>Status</th>
-                    <th></th>
-                </tr>
-                </thead>
-                <tbody>
-
-                                                        <tr>
-                        <td class="text-nowrap">
-                            <div class="d-flex">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAABGdBTUEAALGPC/xhBQAAABJ0RVh0U29mdHdhcmUASmRlbnRpY29um8oJfgAAAF1QTFRFAAAAaXXyaXXys7n4aXXys7n4aXXyaXXyaXXyaXXyaXXyaXXyaXXyaXXyaXXyaXXyaXXyaXXxaHXyaXXyaXXyaXXyaXXxaXTyaHXxaXTxaHXyaXTyaXXyaXXys7n4r14JtQAAAB90Uk5TAP+/fz//rxzybwPMM/uPDOIDb08yywxP4gzLA6oZd2txuB0AAAGYSURBVHhe7dXpQoMwDAfwlmPANhjqdN7v/5hrkh7599AHUD5sFPozTRNXY/4vY93V4T70fRwPHb2nS02h4QCkH8dkTEBIMIgTYDxCAkFYoGEEBIJ4kRmHgOggUeRGZwvbpcQPRm8XiLZRi8xE06RMCtE0ITEp3wErrWoK5eZBP/LXNENz6D7IjVuVPFqQtA3lIeR40pXO+yBF4sz98Lyq5ih6JxjZqzDaIpkOZb/JLL+7gVx2uXt4nC2TMp9Qj7jOJ767PruNEJKbWMFI6OZlW6lCnqBJNdfkthNIBEwiMun1pmmI0ghDZN3eYH3VhVGryOXE+5mB5E939fSjsfPyISH2SwglpNKcEufzK0y0G5CK8HHCNGPsevUDilIVYhSxp6OM2oKNJnYJpBGDXvt/MZ7p9m6e+K61Kn5p1J+jCh3yhzILP1MfhAKqGPhLH2FhVODsPGkZJQb9Mw6Lgzh6r7omif2W1WOAw6IrjrBKXxXny+9Hktt0lQDVACJxPlhzOmMzgsgZFC6TCgHUf2ON+SCvFf+vPbsDe54L25pt/VIAAAAASUVORK5CYII=" class="campaign-avatar rounded-circle mr-3" alt="" />
-
-                                <div class="d-flex flex-column">
-                                    <a href="https://socialproofo.com/demo/campaign/1">SocialProof</a>
-
-                                    <span class="text-muted">
-                                        socialproofo.com                                    </span>
-                                </div>
-                            </div>
-                        </td>
-                        <td class="text-nowrap d-none d-md-table-cell"><span class="text-muted" data-toggle="tooltip" title="2019-08-08 00:22:07">8 August, 2019</span></td>
-                        <td class="text-nowrap">
-                            <div class="d-flex">
-                                <div class="custom-control custom-switch" data-toggle="tooltip" title="Change the status of the Campaign">
-                                    <input
-                                            type="checkbox"
-                                            class="custom-control-input"
-                                            id="campaign_is_enabled_1"
-                                            data-row-id="1"
-                                            onchange="ajax_call_helper(event, 'campaigns-ajax', 'is_enabled_toggle')"
-                                        checked="checked"                                    >
-                                    <label class="custom-control-label clickable" for="campaign_is_enabled_1"></label>
-                                </div>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="d-flex justify-content-end">
-                                <div class="dropdown">
-                                <button type="button" class="btn btn-link text-secondary dropdown-toggle dropdown-toggle-simple" data-toggle="dropdown" data-boundary="viewport">
-                                    <i class="fa fa-fw fa-ellipsis-v"></i>
-                                </button>
-
-                                <div class="dropdown-menu dropdown-menu-right">
-                                    <a href="https://socialproofo.com/demo/campaign/1" class="dropdown-item"><i class="fa fa-fw fa-sm fa-server mr-1"></i> View</a>
-                                    <a href="https://socialproofo.com/demo/campaign/1/statistics" class="dropdown-item"><i class="fa fa-fw fa-sm fa-chart-bar mr-1"></i> Statistics</a>
-                                    <a href="#" data-toggle="modal" data-target="#update_campaign" data-campaign-id="1" data-name="SocialProof" data-domain="socialproofo.com" data-include-subdomains="" class="dropdown-item"><i class="fa fa-fw fa-sm fa-pencil-alt mr-1"></i> Edit</a>
-
-                                    <a
-                                        href="#"
-                                        data-toggle="modal"
-                                        data-target="#campaign_pixel_key"
-                                        data-pixel-key="socialproofo"
-                                        data-campaign-id="1"
-                                        class="dropdown-item"
-                                    ><i class="fa fa-fw fa-sm fa-code mr-1"></i> Install Pixel</a>
-
-                                                                            <a href="#" data-toggle="modal" data-target="#custom_branding_campaign" data-campaign-id="1" data-branding-name="SocialProof" data-branding-url="https://altumcode.io/" class="dropdown-item"><i class="fa fa-fw fa-sm fa-random mr-1"></i> Custom Branding</a>
-                                    
-                                    <a href="#" data-toggle="modal" data-target="#campaign_delete_modal" data-campaign-id="1" class="dropdown-item"><i class="fa fa-fw fa-sm fa-times mr-1"></i> Delete</a>
-                                </div>
-                            </div>
-                            </div>
-                        </td>
-                    </tr>
+    
+        
+           
+        
+                    <table class="table table-bordered">
+        
+                        <div class="table-responsive table-custom-container mt-3">
+                            <table class="table table-custom">
+                                <thead>
+                                <tr>
+                                    <th>Campaign</th>
+                                    <th class="d-none d-md-table-cell">Launched on</th>
+                                    <th>Status</th>
+                                    <th></th>
+                                </tr>
+                                
+                                </thead>
+                                <tbody>
                 
+                                                                        <tr>
+                                        <td class="text-nowrap">
+                                            <div class="d-flex">
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAABGdBTUEAALGPC/xhBQAAABJ0RVh0U29mdHdhcmUASmRlbnRpY29um8oJfgAAAF1QTFRFAAAAaXXyaXXys7n4aXXys7n4aXXyaXXyaXXyaXXyaXXyaXXyaXXyaXXyaXXyaXXyaXXyaXXxaHXyaXXyaXXyaXXyaXXxaXTyaHXxaXTxaHXyaXTyaXXyaXXys7n4r14JtQAAAB90Uk5TAP+/fz//rxzybwPMM/uPDOIDb08yywxP4gzLA6oZd2txuB0AAAGYSURBVHhe7dXpQoMwDAfwlmPANhjqdN7v/5hrkh7599AHUD5sFPozTRNXY/4vY93V4T70fRwPHb2nS02h4QCkH8dkTEBIMIgTYDxCAkFYoGEEBIJ4kRmHgOggUeRGZwvbpcQPRm8XiLZRi8xE06RMCtE0ITEp3wErrWoK5eZBP/LXNENz6D7IjVuVPFqQtA3lIeR40pXO+yBF4sz98Lyq5ih6JxjZqzDaIpkOZb/JLL+7gVx2uXt4nC2TMp9Qj7jOJ767PruNEJKbWMFI6OZlW6lCnqBJNdfkthNIBEwiMun1pmmI0ghDZN3eYH3VhVGryOXE+5mB5E939fSjsfPyISH2SwglpNKcEufzK0y0G5CK8HHCNGPsevUDilIVYhSxp6OM2oKNJnYJpBGDXvt/MZ7p9m6e+K61Kn5p1J+jCh3yhzILP1MfhAKqGPhLH2FhVODsPGkZJQb9Mw6Lgzh6r7omif2W1WOAw6IrjrBKXxXny+9Hktt0lQDVACJxPlhzOmMzgsgZFC6TCgHUf2ON+SCvFf+vPbsDe54L25pt/VIAAAAASUVORK5CYII=" class="campaign-avatar rounded-circle mr-3" alt="" />
+                
+                                                <div class="d-flex flex-column">
+                                                    <a href="https://socialproofo.com/demo/campaign/1">SocialProof</a>
+                
+                                                    <span class="text-muted">
+                                                        socialproofo.com                                    </span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-nowrap d-none d-md-table-cell"><span class="text-muted" data-toggle="tooltip" title="2019-08-08 00:22:07">8 August, 2019</span></td>
+                                        <td class="text-nowrap">
+                                            <div class="d-flex">
+                                                <div class="custom-control custom-switch" data-toggle="tooltip" title="Change the status of the Campaign">
+                                                    <input
+                                                            type="checkbox"
+                                                            class="custom-control-input"
+                                                            id="campaign_is_enabled_1"
+                                                            data-row-id="1"
+                                                            onchange="ajax_call_helper(event, 'campaigns-ajax', 'is_enabled_toggle')"
+                                                        checked="checked"                                    >
+                                                    <label class="custom-control-label clickable" for="campaign_is_enabled_1"></label>
+                                                </div>
+                                            </div>
+                                            
+                                        </td>
+                                        
+                                        <td>
+                                            <div class="d-flex justify-content-end">
+                                                <div class="dropdown">
+                                                <button type="button" class="btn btn-link text-secondary dropdown-toggle dropdown-toggle-simple" data-toggle="dropdown" data-boundary="viewport">
+                                                    <i class="fa fa-fw fa-ellipsis-v"></i>
+                                                </button>
+                
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <a href="https://socialproofo.com/demo/campaign/1" class="dropdown-item"><i class="fa fa-fw fa-sm fa-server mr-1"></i> View</a>
+                                                    <a href="https://socialproofo.com/demo/campaign/1/statistics" class="dropdown-item"><i class="fa fa-fw fa-sm fa-chart-bar mr-1"></i> Statistics</a>
+                                                    <a href="#" data-toggle="modal" data-target="#update_campaign" data-campaign-id="1" data-name="SocialProof" data-domain="socialproofo.com" data-include-subdomains="" class="dropdown-item"><i class="fa fa-fw fa-sm fa-pencil-alt mr-1"></i> Edit</a>
+                
+                                                    <a
+                                                        href="#"
+                                                        data-toggle="modal"
+                                                        data-target="#campaign_pixel_key"
+                                                        data-pixel-key="socialproofo"
+                                                        data-campaign-id="1"
+                                                        class="dropdown-item"
+                                                    ><i class="fa fa-fw fa-sm fa-code mr-1"></i> Install Pixel</a>
+                
+                                                                                            <a href="#" data-toggle="modal" data-target="#custom_branding_campaign" data-campaign-id="1" data-branding-name="SocialProof" data-branding-url="https://altumcode.io/" class="dropdown-item"><i class="fa fa-fw fa-sm fa-random mr-1"></i> Custom Branding</a>
+                                                    
+                                                    <a href="#" data-toggle="modal" data-target="#campaign_delete_modal" data-campaign-id="1" class="dropdown-item"><i class="fa fa-fw fa-sm fa-times mr-1"></i> Delete</a>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </td>
+                                    
+                    
+                    </tr>
+    
+                    {{-- @foreach ($campaigns as $campaign)
+                    <tr v-for="(form, index) in forms"> --}}
+                        {{-- <tr v-for="(campaign, index) in campaigns"> --}}
+                           <tr v-for="(campaign, index) in campaigns">
+    
+<td class="text-nowrap">
+<div class="d-flex">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAABGdBTUEAALGPC/xhBQAAABJ0RVh0U29mdHdhcmUASmRlbnRpY29um8oJfgAAAF1QTFRFAAAAaXXyaXXys7n4aXXys7n4aXXyaXXyaXXyaXXyaXXyaXXyaXXyaXXyaXXyaXXyaXXyaXXxaHXyaXXyaXXyaXXyaXXxaXTyaHXxaXTxaHXyaXTyaXXyaXXys7n4r14JtQAAAB90Uk5TAP+/fz//rxzybwPMM/uPDOIDb08yywxP4gzLA6oZd2txuB0AAAGYSURBVHhe7dXpQoMwDAfwlmPANhjqdN7v/5hrkh7599AHUD5sFPozTRNXY/4vY93V4T70fRwPHb2nS02h4QCkH8dkTEBIMIgTYDxCAkFYoGEEBIJ4kRmHgOggUeRGZwvbpcQPRm8XiLZRi8xE06RMCtE0ITEp3wErrWoK5eZBP/LXNENz6D7IjVuVPFqQtA3lIeR40pXO+yBF4sz98Lyq5ih6JxjZqzDaIpkOZb/JLL+7gVx2uXt4nC2TMp9Qj7jOJ767PruNEJKbWMFI6OZlW6lCnqBJNdfkthNIBEwiMun1pmmI0ghDZN3eYH3VhVGryOXE+5mB5E939fSjsfPyISH2SwglpNKcEufzK0y0G5CK8HHCNGPsevUDilIVYhSxp6OM2oKNJnYJpBGDXvt/MZ7p9m6e+K61Kn5p1J+jCh3yhzILP1MfhAKqGPhLH2FhVODsPGkZJQb9Mw6Lgzh6r7omif2W1WOAw6IrjrBKXxXny+9Hktt0lQDVACJxPlhzOmMzgsgZFC6TCgHUf2ON+SCvFf+vPbsDe54L25pt/VIAAAAASUVORK5CYII=" class="campaign-avatar rounded-circle mr-3" alt="" />
+
+<div class="d-flex flex-column">
+    <a href="https://socialproofo.com/demo/campaign/1">@{{ campaign.name}}</a>
+
+    <span class="text-muted">
+        @{{ campaign.domain}}                             </span>
+</div>
+</div>
+</td> 
+<td class="text-nowrap d-none d-md-table-cell"><span class="text-muted" data-toggle="tooltip" title="2019-08-08 "> @{{ campaign.created_at}}</span></td>
+<td class="text-nowrap">
+<div class="d-flex">
+<div class="custom-control custom-switch" data-toggle="tooltip" title="Change the status of the Campaign">
+    <input
+            type="checkbox"
+            class="custom-control-input"
+            {{-- @{{ campaign.subdomain }} --}}
+            data-row-id="1"
+            onchange="ajax_call_helper(event, 'campaigns-ajax', 'is_enabled_toggle')"
+        checked="checked"                                    >
+    {{-- <label class="custom-control-label clickable" for="campaign_is_enabled_1">@{{ campaign.subdomain }}</label> --}}
+</div>
+</div>
+
+</td>
+
+<td>
+<div class="d-flex justify-content-end">
+<div class="dropdown">
+<button type="button" class="btn btn-link text-secondary dropdown-toggle dropdown-toggle-simple" data-toggle="dropdown" data-boundary="viewport">
+    <i class="fa fa-fw fa-ellipsis-v"></i>
+</button>
+
+<div class="dropdown-menu dropdown-menu-right">
+    <a href="https://socialproofo.com/demo/campaign/1" class="dropdown-item"><i class="fa fa-fw fa-sm fa-server mr-1"></i> View</a>
+    <a href="https://socialproofo.com/demo/campaign/1/statistics" class="dropdown-item"><i class="fa fa-fw fa-sm fa-chart-bar mr-1"></i> Statistics</a>
+    <a href="#" data-toggle="modal" data-target="#update_campaign" data-campaign-id="1" data-name="SocialProof" data-domain="socialproofo.com" data-include-subdomains="" class="dropdown-item"><i class="fa fa-fw fa-sm fa-pencil-alt mr-1"></i> Edit</a>
+
+    <a
+        href="#"
+        data-toggle="modal"
+        data-target="#campaign_pixel_key"
+        data-pixel-key="socialproofo"
+        data-campaign-id="1"
+        class="dropdown-item"
+    ><i class="fa fa-fw fa-sm fa-code mr-1"></i> Install Pixel</a>
+
+       <a href="#" data-toggle="modal" data-target="#custom_branding_campaign" data-campaign-id="1" data-branding-name="SocialProof" data-branding-url="https://altumcode.io/" class="dropdown-item"><i class="fa fa-fw fa-sm fa-random mr-1"></i> Custom Branding</a>
+    
+    <a href="#" data-toggle="modal" data-target="#campaign_delete_modal" data-campaign-id="1" class="dropdown-item"><i class="fa fa-fw fa-sm fa-times mr-1"></i> Delete</a>
+</div>
+</div>
+</div>
+</td>
+                
+        </tr>
                 </tbody>
             </table>
         </div>
@@ -342,13 +346,15 @@
 <div class="d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-center">
     <div class="">
         <p class="text-muted">
-            Showing 1-1 out of 1 results.        </p>
+            Showing 1-1 out of 1 results.      
+          </p>
+          </p>
     </div>
-
+  
     <div class="">
         <ul class="pagination">
             
-            
+            {{-- {{ $campaign->links() }}  --}}
                     </ul>
     </div>
 </div>
@@ -360,7 +366,7 @@
 </section>
 
 
-        </main>
+       
 
         
         <footer class="footer ">
@@ -369,7 +375,7 @@
     <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
         <div class="mb-3 mb-lg-0">
             <a class="h5" href="https://socialproofo.com/demo/">
-                                    <img src="https://socialproofo.com/demo/uploads/logo/logo.png" class="mb-2 footer-logo" alt="Website Logo" />
+                                    <img src="/demo/uploads/logo/logo.png" class="mb-2 footer-logo" alt="Website Logo" />
                             </a>
             <div>Copyright © 2022 SocialProofo Demo.</div>
         </div>
@@ -390,11 +396,11 @@
         <div class="col-12 col-lg mb-3">
             <ul class="list-style-none d-flex flex-column flex-lg-row flex-wrap m-0">
                 
-                                                            <li class="mb-2 mr-lg-3"><a href="https://socialproofo.com/demo/page/terms-of-service" target="_self">Terms of Service</a></li>
-                                            <li class="mb-2 mr-lg-3"><a href="https://socialproofo.com/demo/page/create-campaign" target="_self">How to create a campaign</a></li>
-                                            <li class="mb-2 mr-lg-3"><a href="https://socialproofo.com/demo/page/create-notification" target="_self">How to create a notification</a></li>
-                                            <li class="mb-2 mr-lg-3"><a href="https://socialproofo.com/demo/page/install-script" target="_self">How to install the script</a></li>
-                                            <li class="mb-2 mr-lg-3"><a href="https://socialproofo.com/demo/page/who-are-we" target="_self">Who are we?</a></li>
+                                                            <li class="mb-2 mr-lg-3"><a href="page/terms-of-service" target="_self">Terms of Service</a></li>
+                                            <li class="mb-2 mr-lg-3"><a href="page/create-campaign" target="_self">How to create a campaign</a></li>
+                                            <li class="mb-2 mr-lg-3"><a href="page/create-notification" target="_self">How to create a notification</a></li>
+                                            <li class="mb-2 mr-lg-3"><a href="page/install-script" target="_self">How to install the script</a></li>
+                                            <li class="mb-2 mr-lg-3"><a href="page/who-are-we" target="_self">Who are we?</a></li>
                                                 </ul>
         </div>
 
@@ -423,20 +429,22 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-
-            <div class="modal-body">
-                <form name="create_campaign" method="post" role="form">
-                    <input type="hidden" name="token" value="4b1734c0e1d2c91f6efa42a3ea43cba9" required="required" />
+         
+            <div class="modal-body" >
+                {{-- method="POST"  action="{{ route('store') }}" --}}
+              
+                    @csrf
+                    {{-- <input type="hidden" name="token" value="4b1734c0e1d2c91f6efa42a3ea43cba9" /> --}}
                     <input type="hidden" name="request_type" value="create" />
 
                     <div class="form-group">
                         <label><i class="fa fa-fw fa-sm fa-signature text-muted mr-1"></i> Name</label>
-                        <input type="text" class="form-control" name="name" required="required" />
+                        <input type="text" class="form-control" v-model="campaign.name"   />
                     </div>
 
                     <div class="form-group">
-                        <label><i class="fa fa-fw fa-sm fa-network-wired text-muted mr-1"></i> Domain / Subdomain</label>
-                        <input type="text" class="form-control" name="domain" placeholder="ex: domain.com or subdomain.domain.com" required="required" />
+                        <label><i class="fa fa-fw fa-sm fa-network-wired text-muted mr-1"></i>Domain / Subdomain</label>
+                        <input type="text" class="form-control" v-model="campaign.domain"   placeholder="ex: domain.com or subdomain.domain.com" />
                         <small class="form-text text-muted">The domain name of the website where the campaign is going to run.</small>
                         <small class="form-text text-muted">Notifications will NOT work on other domains other than what you define here.</small>
                     </div>
@@ -445,17 +453,18 @@
                         <input
                                 type="checkbox"
                                 class="custom-control-input"
-                                name="include_subdomains"
+                                name="include_subdomain"
                                 id="include_subdomains"
+                                v-model= "campaign.include_subdomain"
                         >
                         <label class="custom-control-label clickable" for="include_subdomains">Include Subdomains</label>
                         <small class="form-text text-muted">All the subdomains will match on this campaign as well if checked.</small>
                     </div>
 
                     <div class="text-center mt-4">
-                        <button type="submit" name="submit" class="btn btn-block btn-primary">Create</button>
+                        <button   class="btn btn-block btn-primary" @click="createCampaign">Submit</button>
                     </div>
-                </form>
+            
             </div>
 
         </div>
@@ -474,23 +483,28 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-
-                <form name="campaign_delete_modal" method="post" action="https://socialproofo.com/demo/campaign/delete" role="form">
-                    <input type="hidden" name="token" value="4b1734c0e1d2c91f6efa42a3ea43cba9" required="required" />
-                    <input type="hidden" name="campaign_id" value="" />
+                 {{-- method="post" action ="route{{'campaign.delete', $campaign->id}}" --}}
+                 
+                    @csrf
+             
+                        {{-- <input type="hidden" name="token" value="4b1734c0e1d2c91f6efa42a3ea43cba9" required="required" />  --}}
+                     <input type="hidden" name="campaign_id" value="" />
 
                     <p class="text-muted">By deleting the campaign, all the data associated with the campaign will be lost. This action cannot be undone.</p>
 
                     <div class="mt-4">
-                        <button type="submit" name="submit" class="btn btn-block btn-danger">Delete</button>
+                        <button  class="btn btn-block btn-danger" @click="deleteCampaign(index)">Delete</button>
                     </div>
-                </form>
-            </div>
+                
+             </div> 
 
         </div>
     </div>
 </div>
-
+<textarea style="display:none" id="campaigns" cols="30" rows="10">{{ json_encode($campaigns) }}</textarea>
+<textarea style="display:none" id="create-url" cols="30" rows="10">{{ route('campaign.create') }}</textarea>
+<textarea style="display:none" id="update-url" cols="30" rows="10">{{ route('campaign.update') }}</textarea>
+<textarea style="display:none" id="delete-url" cols="30" rows="10">{{ route('campaign.delete') }}</textarea>
 
 <div class="modal fade" id="campaign_pixel_key" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -510,7 +524,7 @@
                     <pre id="pixel_key_html" class="pre-custom rounded"></pre>
 
                     <div class="mt-4">
-                        <button type="button" class="btn btn-block btn-primary" data-clipboard-target="#pixel_key_html" data-copied="Copied!">Copy Pixel</button>
+                       > <button type="button" class="btn btn-block btn-primary" data-clipboard-target="#pixel_key_html" data-copied="Copied!">Copy Pixel</button>
                     </div>
                 </div>
             </div>
@@ -532,21 +546,22 @@
             </div>
 
             <div class="modal-body">
-                <form name="update_campaign" method="post" role="form">
-                    <input type="hidden" name="token" value="4b1734c0e1d2c91f6efa42a3ea43cba9" required="required" />
+                <form name="" role="form">
+                    @csrf 
+                    {{-- <input type="hidden" name="token" value="4b1734c0e1d2c91f6efa42a3ea43cba9" required="required" /> --}}
                     <input type="hidden" name="request_type" value="update" />
                     <input type="hidden" name="campaign_id" value="" />
 
                     <div class="notification-container"></div>
 
                     <div class="form-group">
-                        <label><i class="fa fa-fw fa-sm fa-signature text-muted mr-1"></i> Name</label>
-                        <input type="text" class="form-control" name="name"  />
+                        <label><i class="fa fa-fw fa-sm fa-signature text-muted mr-1"></i>name</label>
+                        <input type="text" class="form-control" v-modal="campaign.name" name="name"  />
                     </div>
 
                     <div class="form-group">
-                        <label><i class="fa fa-fw fa-sm fa-network-wired text-muted mr-1"></i> Domain / Subdomain</label>
-                        <input type="text" class="form-control" name="domain" placeholder="ex: domain.com or subdomain.domain.com" required="required" />
+                        <label><i class="fa fa-fw fa-sm fa-network-wired text-muted mr-1"></i>domain</label>
+                        <input type="text" class="form-control" v-model="campaign.domain" name="domain" placeholder="ex: domain.com or subdomain.domain.com" required="required" />
                         <small class="form-text text-muted">The domain name of the website where the campaign is going to run.</small>
                         <small class="form-text text-muted">Notifications will NOT work on other domains other than what you define here.</small>
                     </div>
@@ -563,7 +578,7 @@
                     </div>
 
                     <div class="text-center mt-4">
-                        <button type="submit" name="submit" class="btn btn-block btn-primary">Submit</button>
+                        <button  class="btn btn-block btn-primary" @click="update_campaign">Submit</button>
                     </div>
                 </form>
             </div>
@@ -609,10 +624,10 @@
 
         </div>
     </div>
+</main>
+
 </div>
-
-
-        
+</div>     
 <input type="hidden" name="global_url" value="https://socialproofo.com/demo/" />
 <input type="hidden" name="global_token" value="2e92832b44232b8006e7e59f0af65161" />
 <input type="hidden" name="global_number_decimal_point" value="." />
@@ -636,48 +651,13 @@
                     <script src="themes/altum/assets/js/libraries/fontawesome-solid.min.js?v=1300"></script>
                     <script src="themes/altum/assets/js/libraries/fontawesome-brands.modified.js?v=1300"></script>
         
-        <script>
-    $('form[name="create_campaign"]').on('submit', event => {
+        
+             
+ 
 
-        $.ajax({
-            type: 'POST',
-            url: 'campaigns-ajax',
-            data: $(event.currentTarget).serialize(),
-            success: (data) => {
-                if(data.status == 'error') {
-                    // :)
-                }
 
-                else if(data.status == 'success') {
 
-                    /* Hide modal */
-                    $('#create_campaign').modal('hide');
-
-                    /* Clear input values */
-                    $('form[name="create_campaign"] input').val('');
-
-                    /* Fade out refresh */
-                    redirect(`dashboard?pixel_key_modal=${data.details.campaign_id}`);
-
-                }
-            },
-            dataType: 'json'
-        });
-
-        event.preventDefault();
-    })
-</script>
-<script>
-    'use strict';
-
-    /* On modal show load new data */
-    $('#campaign_delete_modal').on('show.bs.modal', event => {
-        let campaign_id = $(event.relatedTarget).data('campaign-id');
-
-        $(event.currentTarget).find('input[name="campaign_id"]').val(campaign_id);
-    });
-</script>
-<script src="https://socialproofo.com/demo/themes/altum/assets/js/libraries/clipboard.min.js?v=1300"></script>
+<script src="themes/altum/assets/js/libraries/clipboard.min.js?v=1300"></script>
 
 <script>
     /* On modal show */
@@ -707,9 +687,41 @@
         });
     });
 </script>
-<script>
-    /* On modal show load new data */
-    $('#update_campaign').on('show.bs.modal', event => {
+
+
+{{-- <script>
+    var application = new Vue({
+        el:'#app',
+        data: {
+            name:'',
+            domain:''
+            include_subdomains:''
+        },
+        methods: {
+            onSubmit(){
+    if(this.name !== '' && this.domain !== ''){
+        var fd = new FormData()
+    
+        fd.append('name',this.name)
+        fd.append('domain', this.domain)
+    
+        axios.post({
+    
+        })
+    }
+            },
+            mounted: function(){
+                this.getRecords()
+            }
+        }
+    
+    
+    })
+        
+    </script> --}}
+{{-- <script>
+  - /* On modal show load new data */
+    // $('#update_campaign').on('show.bs.modal', event => {
         let campaign_id = $(event.relatedTarget).data('campaign-id');
         let name = $(event.relatedTarget).data('name');
         let domain = $(event.relatedTarget).data('domain');
@@ -721,7 +733,7 @@
         $(event.currentTarget).find('input[name="include_subdomains"]').prop('checked', include_subdomains);
     });
 
-    $('form[name="update_campaign"]').on('submit', event => {
+     $('form[name="update_campaign"]').on('submit', event => {
 
         $.ajax({
             type: 'POST',
@@ -744,7 +756,7 @@
                     $('form[name="update_campaign"] input').val('');
 
                     /* Fade out refresh */
-                    redirect(`dashboard`);
+                    redirect(`home`);
 
                 }
             },
@@ -752,9 +764,10 @@
         });
 
         event.preventDefault();
-    })
+
 </script>
-<script>
+   
+ <script>
     /* On modal show load new data */
     $('#custom_branding_campaign').on('show.bs.modal', event => {
         let campaign_id = $(event.relatedTarget).data('campaign-id');
@@ -768,41 +781,41 @@
 
     $('form[name="custom_branding_campaign"]').on('submit', event => {
 
-        $.ajax({
+     $.ajax({
             type: 'POST',
-            url: 'campaigns-ajax',
-            data: $(event.currentTarget).serialize(),
-            success: (data) => {
-                if (data.status == 'error') {
-                    notification_container.html('');
+          url: 'campaigns-ajax',
+           data: $(event.currentTarget).serialize(),
+         success: (data) => {
+              if (data.status == 'error') {
+                 notification_container.html('');
 
-                    display_notifications(data.message, 'error', notification_container);
-                }
+             display_notifications(data.message, 'error', notification_container);
+         }
 
-                else if(data.status == 'success') {
+          else if(data.status == 'success') {
 
-                    /* Hide modal */
-                    $('#custom_branding_campaign').modal('hide');
+              /* Hide modal */
+              $('#custom_branding_campaign').modal('hide');
 
-                }
-            },
-            dataType: 'json'
-        });
+           }
+        },
+         dataType: 'json'
+       });
 
-        event.preventDefault();
+     event.preventDefault();
     })
-</script>
-    <script>
+ </script>
+   <script>
         $('[data-delete]').on('click', event => {
             let message = $(event.currentTarget).attr('data-delete');
 
             if(!confirm(message)) return false;
 
-            /* Continue with the deletion */
-            ajax_call_helper(event, 'campaigns-ajax', 'delete', () => {
+         /* Continue with the deletion */
+          ajax_call_helper(event, 'campaigns-ajax', 'delete', () => {
 
-                /* On success delete the actual row from the DOM */
-                $(event.currentTarget).closest('tr').remove();
+            /* On success delete the actual row from the DOM */
+            $(event.currentTarget).closest('tr').remove();
 
             });
 
@@ -810,7 +823,9 @@
         });
 
         
-    </script>
+    </script>  --}}
+   
+
 <script>
     document.querySelectorAll('[data-choose-theme-style]').forEach(theme => {
         theme.addEventListener('click', event => {
@@ -842,5 +857,8 @@
         });
     })
 </script>
+<script src="{{ asset('app/campaign.js') }}"></script>
+ {{-- <script src="{{asset('app/vue.js')}}"></script>
+<script src="{{asset('app/axios.js')}}"></script> --}}
     </body>
 </html>
