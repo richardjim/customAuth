@@ -41,7 +41,7 @@ Route::get('index', [CampaignController::class,'index'])->name('index');
     // Route::post('store',[CampaignController::class, 'store'])->name('store');
     
     Route::post('campaign/update',[CampaignController::class, 'update'])->name('campaign.update');
-    Route::delete('campaign/delete',[CampaignController::class, 'destroy'])->name('campaign.delete');
+    Route::delete('campaign/delete',[CampaignController::class, 'delete'])->name('campaign.delete');
    
 Route::post('/campaignCreate', [CampaignController::class, 'create'])->name('campaign.create');
  
