@@ -44,8 +44,8 @@
                             
                                         <div class="container mb-5">
                                             <div class="d-flex justify-content-center">
-                                                <a href="https://socialproofo.com/demo/">
-                                                                                <img src="https://socialproofo.com/demo/uploads/logo/logo.png" class="img-fluid navbar-logo" alt="Website Logo" />
+                                                <a href="">
+                                                                                <img src="uploads/logo/logo.png" class="img-fluid navbar-logo" alt="Website Logo" />
                                                                         </a>
                                             </div>
                                         </div>
@@ -138,7 +138,7 @@
                                         
             
         
-<input type="hidden" name="global_url" value="https://socialproofo.com/demo/" />
+<input type="hidden" name="global_url" value="" />
 <input type="hidden" name="global_token" value="4a75d38b8d154f2cc537ce3038af6b26" />
 <input type="hidden" name="global_number_decimal_point" value="." />
 <input type="hidden" name="global_number_thousands_separator" value="," />

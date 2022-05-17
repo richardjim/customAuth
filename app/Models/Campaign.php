@@ -14,5 +14,7 @@ class Campaign extends Model
       'include_subdomain',
 
   ];
+  
     }
+    
 

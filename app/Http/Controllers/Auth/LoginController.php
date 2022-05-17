@@ -8,6 +8,9 @@ use Auth;
 
 class LoginController extends Controller
 {
+
+
+
     public function login()
     {
 
@@ -26,8 +29,11 @@ class LoginController extends Controller
         if (Auth::attempt($credentials)) {
             return redirect()->intended('home');
         }
+        else{
+          return view('auth.register');
+        }
 
-        return redirect('login')->with('error', 'Oppes! You have entered invalid credentials');
+        return redirect('auth.register')->with('error', 'Oppes! You have entered invalid credentials');
     }
 
     public function logout() {

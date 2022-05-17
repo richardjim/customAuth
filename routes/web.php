@@ -7,6 +7,10 @@ use App\Http\Controllers\Auth\ResetPasswordController;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\Auth\HomeController;
 use App\Http\Controllers\CampaignController;
+use App\Http\Controllers\DetailController;
+use App\Http\Controllers\NotificationController;
+use App\Http\Controllers\createnotificationController;
+use App\Http\Controllers\ShownotificationController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,6 +27,12 @@ Route::post('register', [RegisterController::class, 'store'])->name('register');
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/test', function () { return view('test'); });
+
+
+
 Route::get('forget-password', [ForgotPasswordController::class, 'getEmail']);
 Route::post('forget-password', [ForgotPasswordController::class, 'postEmail']);
 
@@ -43,6 +53,16 @@ Route::get('index', [CampaignController::class,'index'])->name('index');
     Route::post('campaign/update',[CampaignController::class, 'update'])->name('campaign.update');
     Route::delete('campaign/delete',[CampaignController::class, 'delete'])->name('campaign.delete');
    
-Route::post('/campaignCreate', [CampaignController::class, 'create'])->name('campaign.create');
- 
+Route::post('/campaigncreate', [CampaignController::class, 'create'])->name('campaign.create');
+
+Route::get('notificationcreate/{Id}', [createnotificationController::class, 'index'])->name('createnotification.index');
+
+
+Route::get('campaign/{Id}', [DetailController::class, 'index'])->name('detail.index');
+Route::get('notification', [NotificationController::class, 'index'])->name('notification.index');
+Route::post('notification', [NotificationController::class, 'create'])->name('notification.create');
+Route::post('notifications/update', [NotificationController::class, 'update'])->name('notification.update');
+Route::get('notification/{Id}', [ShownotificationController::class, 'index'])->name('shownotification.index');
+
+
 

@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
     <head>
         <title>Increase Conversions & Site Growth - SocialProofo Demo</title>
-        <base href="https://socialproofo.com/demo/">
+        {{-- <base href="https://socialproofo.com/demo/"> --}}
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
@@ -11,7 +11,7 @@
         
         
         
-        <link rel="alternate" href="https://socialproofo.com/demo/" hreflang="x-default" />
+        <link rel="alternate"  hreflang="x-default" />
         
                     <link href="https://socialproofo.com/demo/uploads/favicon/f9ab739e0e0982a8b98ecd6e7506656e.png" rel="shortcut icon" />
         
@@ -34,80 +34,17 @@
 
     <body class=" bg-white" data-theme-style="dark">
         
-<script> if(window.location !== window.parent.location){ window.top.location.href = "https:\/\/socialproofo.com\/demo\/"; } </script>
 
-<style>
-    .ac-wrapper {
-        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-        min-height: 4rem;
-        background: #161A38;
-        padding: .5rem 1rem;
-        display: flex;
-        flex-direction: column;
-    }
-    @media (min-width: 992px) {
-        .ac-wrapper {
-            justify-content: space-between;
-            align-items: center;
-            flex-direction: row;
-            min-height: 3rem;
-            padding: .5rem 2rem;
-        }
-    }
-    .ac-altumcode-link {
-        color: white;
-        display: flex;
-        align-items: center;
-        font-size: .85rem;
-        margin-bottom: .5rem;
-    }
-    @media (min-width: 992px) {
-        .ac-altumcode-link {
-            margin-bottom: 0;
-        }
-    }
-    .ac-altumcode-link:hover {
-        text-decoration: none;
-        color: white;
-    }
-    .ac-altumcode-image {
-        width: 1rem;
-        height:auto;
-        margin-right: 1rem;
-    }
-    .ac-primary {
-        padding: .25rem 1.25rem;
-        background: #3f88fd;
-        color: white;
-        border-radius: .25rem;
-        font-size: .95rem;
-        transition: all .3s linear !important;
-        white-space: nowrap;
-    }
-    .ac-primary:hover {
-        text-decoration: none;
-        background: #3370d2;
-        color: white;
-    }
-
-    .ac-secondary {
-        padding: .25rem 0;
-        color: hsl(255, 85%, 90%);
-        border-radius: .25rem;
-        font-size: .95rem;
-        transition: all .3s linear !important;
-        white-space: nowrap;
-        margin-right: 1.25rem;
-    }
-    .ac-secondary:hover {
-        text-decoration: none;
-        color: hsl(255, 85%, 70%);
-    }
-</style>
+<body >
+    <div id="app">
+        {{-- <Home /> --}}
+    </div>
+    {{-- <script src="{{mix('js/app.js')}}" ></script> --}}
+<script src="{{ asset('js/app.js')}}" ></script>
 <nav class="navbar navbar-main  navbar-expand-lg navbar-light bg-white">
     <div class="container">
-        <a class="navbar-brand" href="https://socialproofo.com/demo/">
-                            <img src="https://socialproofo.com/demo/uploads/logo/logo.png" class="img-fluid navbar-logo" alt="Website Logo" />
+        <a class="navbar-brand" href="">
+                            <img src="uploads/logo/logo.png" class="img-fluid navbar-logo" alt="Website Logo" />
                     </a>
 
         <button class="btn navbar-custom-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#main_navbar" aria-controls="main_navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -329,15 +266,15 @@
         </div>
 
         <div class="altumcode-emoji-feedback-emojis">
-                            <img src="https://socialproofo.com/demo/themes/altum/assets/images/emojis/angry.svg" class="altumcode-emoji-feedback-emoji" data-type="angry" loading="lazy" />
+                            <img src="themes/altum/assets/images/emojis/angry.svg" class="altumcode-emoji-feedback-emoji" data-type="angry" loading="lazy" />
             
-                            <img src="https://socialproofo.com/demo/themes/altum/assets/images/emojis/sad.svg" class="altumcode-emoji-feedback-emoji" data-type="sad" loading="lazy" />
+                            <img src="themes/altum/assets/images/emojis/sad.svg" class="altumcode-emoji-feedback-emoji" data-type="sad" loading="lazy" />
             
-                            <img src="https://socialproofo.com/demo/themes/altum/assets/images/emojis/neutral.svg" class="altumcode-emoji-feedback-emoji" data-type="neutral" loading="lazy" />
+                            <img src="themes/altum/assets/images/emojis/neutral.svg" class="altumcode-emoji-feedback-emoji" data-type="neutral" loading="lazy" />
             
-                            <img src="https://socialproofo.com/demo/themes/altum/assets/images/emojis/happy.svg" class="altumcode-emoji-feedback-emoji" data-type="happy" loading="lazy" />
+                            <img src="themes/altum/assets/images/emojis/happy.svg" class="altumcode-emoji-feedback-emoji" data-type="happy" loading="lazy" />
             
-                            <img src="https://socialproofo.com/demo/themes/altum/assets/images/emojis/excited.svg" class="altumcode-emoji-feedback-emoji" data-type="excited" loading="lazy" />
+                            <img src="themes/altum/assets/images/emojis/excited.svg" class="altumcode-emoji-feedback-emoji" data-type="excited" loading="lazy" />
                     </div>
 
             </div>
@@ -486,7 +423,7 @@
                     <p class="index-subheader text-muted mb-5" data-aos="fade-down" data-aos-delay="200"><strong>537 notifications</strong> were created & customized by our users.<br />Increase your website's growth by using our notification widgets.</p>
 
                     <div data-aos="fade-down" data-aos-delay="300">
-                        <a href="https://socialproofo.com/demo/register" class="btn btn-primary index-button">Get started</a>
+                        <a  href="{{ route ('register')}}" class="btn btn-primary index-button">Get started</a>
                     </div>
                 </div>
             </div>
@@ -550,16 +487,16 @@
 
     <div class="row mt-5 d-flex align-items-center">
         <div class="col-md-3 col-sm-6 col-12 mb-5 mb-md-0 text-center">
-            <img src="https://socialproofo.com/demo/themes/altum/assets/images/shopify_logo.svg" class="zoomer" alt="Shopify">
+            <img src="themes/altum/assets/images/shopify_logo.svg" class="zoomer" alt="Shopify">
         </div>
         <div class="col-md-3 col-sm-6 col-12 mb-5 mb-md-0 text-center">
-            <img src="https://socialproofo.com/demo/themes/altum/assets/images/worpress_logo.svg" class="zoomer" alt="Wordpress">
+            <img src="themes/altum/assets/images/worpress_logo.svg" class="zoomer" alt="Wordpress">
         </div>
         <div class="col-md-3 col-sm-6 col-12 mb-5 mb-md-0 text-center">
-            <img src="https://socialproofo.com/demo/themes/altum/assets/images/zapier_logo.svg" class="zoomer" alt="Zapier">
+            <img src="themes/altum/assets/images/zapier_logo.svg" class="zoomer" alt="Zapier">
         </div>
         <div class="col-md-3 col-sm-6 col-12 mb-5 mb-md-0 text-center">
-            <img src="https://socialproofo.com/demo/themes/altum/assets/images/squarespace_logo.svg" class="zoomer" alt="Squarespace">
+            <img src="themes/altum/assets/images/squarespace_logo.svg" class="zoomer" alt="Squarespace">
         </div>
     </div>
 
@@ -587,13 +524,6 @@
     </div>
 
     <div class="mt-8 row d-flex align-items-center">
-
-        
-            
-
-
-
-
 
             <label class="col-12 col-md-6 col-lg-4 mb-3 mb-md-4 custom-radio-box mb-3">
 
@@ -627,21 +557,13 @@
             <p class="altumcode-informational-description" style="color: #000">Limited sale until tonight, right now!</p>
 
 
-                                                <a href="https://socialproofo.com/demo/" class="altumcode-site">by SocialProofo</a>
+                                                <a href="" class="altumcode-site">by SocialProofo</a>
                                     </div>
     </div>
 </div>
                 </div>
 
             </label>
-
-            
-        
-            
-
-
-
-
 
             <label class="col-12 col-md-6 col-lg-4 mb-3 mb-md-4 custom-radio-box mb-3">
 
@@ -682,7 +604,7 @@
                 <a href="#" class="altumcode-coupon-footer">No, I don't want to save money!</a>
             </div>
 
-                                                <a href="https://socialproofo.com/demo/" class="altumcode-site">by SocialProofo</a>
+                                                <a href="" class="altumcode-site">by SocialProofo</a>
                                     </div>
     </div>
 </div>
@@ -735,7 +657,7 @@
 
         <p class="altumcode-live-counter-description" style="color: #000">Active visitors now.</p>
 
-                                    <a href="https://socialproofo.com/demo/" class="altumcode-site">by SocialProofo</a>
+                                    <a href="" class="altumcode-site">by SocialProofo</a>
                         </div>
 </div>
                 </div>
@@ -787,7 +709,7 @@
 
                     </div>
 
-                                    <a href="https://socialproofo.com/demo/" class="altumcode-site">by SocialProofo</a>
+                                    <a href="" class="altumcode-site">by SocialProofo</a>
                         </div>
 </div>
                 </div>
@@ -837,7 +759,7 @@
                 <div class="altumcode-latest-conversion-time">
                                             10 mins ago                                    </div>
 
-                                                            <a href="https://socialproofo.com/demo/" class="altumcode-site">by SocialProofo</a>
+                                                            <a href="" class="altumcode-site">by SocialProofo</a>
                                                 </div>
 
         </div>
@@ -846,15 +768,6 @@
                 </div>
 
             </label>
-
-            
-        
-            
-
-
-
-
-
             <label class="col-12 col-md-6 col-lg-4 mb-3 mb-md-4 custom-radio-box mb-3">
 
                 <input type="radio" name="type" value="CONVERSIONS_COUNTER" class="custom-control-input" required="required">
@@ -891,21 +804,12 @@
             </div>
         </div>
 
-                                    <a href="https://socialproofo.com/demo/" class="altumcode-site">by SocialProofo</a>
+                                    <a href="" class="altumcode-site">by SocialProofo</a>
                         </div>
 </div>
                 </div>
 
             </label>
-
-            
-        
-            
-
-
-
-
-
             <label class="col-12 col-md-6 col-lg-4 mb-3 mb-md-4 custom-radio-box mb-3">
 
                 <input type="radio" name="type" value="VIDEO" class="custom-control-input" required="required">
@@ -937,7 +841,7 @@
         
         <a href="" class="altumcode-video-button" target="_blank" style="background: #000;color: #fff;">Sign up</a>
 
-                                    <a href="https://socialproofo.com/demo/" class="altumcode-site">by SocialProofo</a>
+                                    <a href="" class="altumcode-site">by SocialProofo</a>
                         </div>
 </div>
                 </div>
@@ -991,7 +895,7 @@
 
         <p class="altumcode-social-share-description" style="color: #000">We appreciate all the shares to support us! Thank you!</p>
 
-                                    <a href="https://socialproofo.com/demo/" class="altumcode-site">by SocialProofo</a>
+                                    <a href="" class="altumcode-site">by SocialProofo</a>
                         </div>
 
 </div>
@@ -1046,7 +950,7 @@
             </div>
             <p class="altumcode-random-review-description" style="color: #000">"This is a 5 star product!"</p>
 
-                                                <a href="https://socialproofo.com/demo/" class="altumcode-site">by SocialProofo</a>
+                                                <a href="" class="altumcode-site">by SocialProofo</a>
                                     </div>
 
     </div>
@@ -1091,18 +995,18 @@
         </div>
 
         <div class="altumcode-emoji-feedback-emojis">
-                            <img src="https://socialproofo.com/demo/themes/altum/assets/images/emojis/angry.svg" class="altumcode-emoji-feedback-emoji" data-type="angry" loading="lazy" />
+                            <img src="themes/altum/assets/images/emojis/angry.svg" class="altumcode-emoji-feedback-emoji" data-type="angry" loading="lazy" />
             
-                            <img src="https://socialproofo.com/demo/themes/altum/assets/images/emojis/sad.svg" class="altumcode-emoji-feedback-emoji" data-type="sad" loading="lazy" />
+                            <img src="themes/altum/assets/images/emojis/sad.svg" class="altumcode-emoji-feedback-emoji" data-type="sad" loading="lazy" />
             
-                            <img src="https://socialproofo.com/demo/themes/altum/assets/images/emojis/neutral.svg" class="altumcode-emoji-feedback-emoji" data-type="neutral" loading="lazy" />
+                            <img src="themes/altum/assets/images/emojis/neutral.svg" class="altumcode-emoji-feedback-emoji" data-type="neutral" loading="lazy" />
             
-                            <img src="https://socialproofo.com/demo/themes/altum/assets/images/emojis/happy.svg" class="altumcode-emoji-feedback-emoji" data-type="happy" loading="lazy" />
+                            <img src="themes/altum/assets/images/emojis/happy.svg" class="altumcode-emoji-feedback-emoji" data-type="happy" loading="lazy" />
             
-                            <img src="https://socialproofo.com/demo/themes/altum/assets/images/emojis/excited.svg" class="altumcode-emoji-feedback-emoji" data-type="excited" loading="lazy" />
+                            <img src="themes/altum/assets/images/emojis/excited.svg" class="altumcode-emoji-feedback-emoji" data-type="excited" loading="lazy" />
                     </div>
 
-                                    <a href="https://socialproofo.com/demo/" class="altumcode-site">by SocialProofo</a>
+                                    <a href="" class="altumcode-site">by SocialProofo</a>
                         </div>
 </div>
                 </div>
@@ -1153,7 +1057,7 @@
 
         <button type="button" class="altumcode-cookie-notification-button" style="background: #000;color: #fff">Okay</button>
 
-                                    <a href="https://socialproofo.com/demo/" class="altumcode-site">by SocialProofo</a>
+                                    <a href="" class="altumcode-site">by SocialProofo</a>
                         </div>
 </div>
                 </div>
@@ -1205,7 +1109,7 @@
 
         <p class="altumcode-score-feedback-description" style="color: #000">Rate from 1 to 5. 5 being excellent.</p>
 
-                                    <a href="https://socialproofo.com/demo/" class="altumcode-site">by SocialProofo</a>
+                                    <a href="" class="altumcode-site">by SocialProofo</a>
                         </div>
 </div>
                 </div>
@@ -1267,7 +1171,7 @@
 
                             </div>
 
-                                                <a href="https://socialproofo.com/demo/" class="altumcode-site">by SocialProofo</a>
+                                                <a href="" class="altumcode-site">by SocialProofo</a>
                                     </div>
     </div>
 </div>
@@ -1347,7 +1251,7 @@
 
                             </div>
 
-                                                <a href="https://socialproofo.com/demo/" class="altumcode-site">by SocialProofo</a>
+                                                <a href="#" class="altumcode-site">by SocialProofo</a>
                                     </div>
     </div>
 </div>
@@ -1430,7 +1334,7 @@
             </ul>
 
 
-            <a href="https://socialproofo.com/demo/register?redirect=pay/free" class="pricing-action ">Choose plan</a>
+            <a href="#" class="pricing-action ">Choose plan</a>
         </div>
 
     
@@ -1487,7 +1391,7 @@
             </ul>
 
 
-                <a href="https://socialproofo.com/demo/register?redirect=pay/1" class="pricing-action">
+                <a href="#" class="pricing-action">
                                                                         Choose plan                                                            </a>
             </div>
 
@@ -1579,8 +1483,8 @@
 <div class="container d-print-none">
     <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
         <div class="mb-3 mb-lg-0">
-            <a class="h5" href="https://socialproofo.com/demo/">
-                                    <img src="https://socialproofo.com/demo/uploads/logo/logo.png" class="mb-2 footer-logo" alt="Website Logo" />
+            <a class="h5" href="">
+                                    <img src="uploads/logo/logo.png" class="mb-2 footer-logo" alt="Website Logo" />
                             </a>
             <div>Copyright © 2022 SocialProofo Demo.</div>
         </div>
@@ -1625,20 +1529,13 @@
 
         
         
-<input type="hidden" name="global_url" value="https://socialproofo.com/demo/" />
+<input type="hidden" name="global_url" value="" />
 <input type="hidden" name="global_token" value="bfd8053d8b3d7814610ae493e6641956" />
 <input type="hidden" name="global_number_decimal_point" value="." />
 <input type="hidden" name="global_number_thousands_separator" value="," />
 
-<script>
-    /* Some global variables */
-    window.altum = {};
-    let global_token = document.querySelector('input[name="global_token"]').value;
-    let url = document.querySelector('input[name="global_url"]').value;
-    let decimal_point = document.querySelector('[name="global_number_decimal_point"]').value;
-    let thousands_separator = document.querySelector('[name="global_number_thousands_separator"]').value;
-</script>
 
+{{-- 
                     <script src="themes/altum/assets/js/libraries/jquery.min.js?v=1300"></script>
                     <script src="themes/altum/assets/js/libraries/popper.min.js?v=1300"></script>
                     <script src="themes/altum/assets/js/libraries/bootstrap.min.js?v=1300"></script>
@@ -1648,106 +1545,11 @@
                     <script src="themes/altum/assets/js/libraries/fontawesome-solid.min.js?v=1300"></script>
                     <script src="themes/altum/assets/js/libraries/fontawesome-brands.modified.js?v=1300"></script>
         
-                <script>
-            'use strict';
+        <script src="themes/altum/assets/js/libraries/aos.min.js"></script> --}}
 
-            let payment_frequency_handler = (event = null) => {
 
-                let payment_frequency = null;
 
-                if(event) {
-                    payment_frequency = $(event.currentTarget).data('payment-frequency');
-                } else {
-                    payment_frequency = $('[name="payment_frequency"]:checked').closest('label').data('payment-frequency');
-                }
-
-                switch(payment_frequency) {
-                    case 'monthly':
-                        $(`[data-plan-payment-frequency="annual"]`).removeClass('d-inline-block').addClass('d-none');
-                        $(`[data-plan-payment-frequency="lifetime"]`).removeClass('d-inline-block').addClass('d-none');
-
-                        break;
-
-                    case 'annual':
-                        $(`[data-plan-payment-frequency="monthly"]`).removeClass('d-inline-block').addClass('d-none');
-                        $(`[data-plan-payment-frequency="lifetime"]`).removeClass('d-inline-block').addClass('d-none');
-
-                        break
-
-                    case 'lifetime':
-                        $(`[data-plan-payment-frequency="monthly"]`).removeClass('d-inline-block').addClass('d-none');
-                        $(`[data-plan-payment-frequency="annual"]`).removeClass('d-inline-block').addClass('d-none');
-
-                        break
-                }
-
-                $(`[data-plan-payment-frequency="${payment_frequency}"]`).addClass('d-inline-block');
-
-                $(`[data-plan-${payment_frequency}="true"]`).removeClass('d-none').addClass('');
-                $(`[data-plan-${payment_frequency}="false"]`).addClass('d-none').removeClass('');
-
-            };
-
-            $('[data-payment-frequency]').on('click', payment_frequency_handler);
-
-            payment_frequency_handler();
-        </script>
-        <script src="https://socialproofo.com/demo/themes/altum/assets/js/libraries/aos.min.js"></script>
-
-<script>
-    AOS.init({
-        delay: 100,
-        duration: 600
-    });
-
-    /* Preview handler */
-    $('input[name="type"]').on('change', (event, first_trigger = false) => {
-
-        let preview_html = $(event.currentTarget).closest('label').find('.preview').html();
-
-        $('#notification_preview').hide().html(preview_html).fadeIn();
-
-        /* Make sure its not the first check */
-        if(!first_trigger) {
-            document.querySelector('#notification_preview').scrollIntoView();
-        }
-
-    });
-
-    /* Select a default option */
-    $('input[name="type"]:first').attr('checked', true).trigger('change', true);
-</script>
-<script>
-    document.querySelectorAll('[data-choose-theme-style]').forEach(theme => {
-        theme.addEventListener('click', event => {
-            let chosen_theme_style = event.currentTarget.getAttribute('data-choose-theme-style');
-
-            /* Set a cookie with the new theme style */
-            set_cookie('theme_style', chosen_theme_style, 30, "\/demo\/");
-
-            /* Change the css and button on the page */
-            let css = document.querySelector(`#css_theme_style`);
-
-            document.querySelector(`[data-theme-style]`).setAttribute('data-theme-style', chosen_theme_style);
-
-            switch(chosen_theme_style) {
-                case 'dark':
-                    css.setAttribute('href', "https:\/\/socialproofo.com\/demo\/themes\/altum\/assets\/css\/bootstrap-dark.min.css?v=1300");
-                    document.querySelector(`[data-choose-theme-style="dark"]`).classList.add('d-none');
-                    document.querySelector(`[data-choose-theme-style="light"]`).classList.remove('d-none');
-                    break;
-
-                case 'light':
-                    css.setAttribute('href', "https:\/\/socialproofo.com\/demo\/themes\/altum\/assets\/css\/bootstrap.min.css?v=1300");
-                    document.querySelector(`[data-choose-theme-style="dark"]`).classList.remove('d-none');
-                    document.querySelector(`[data-choose-theme-style="light"]`).classList.add('d-none');
-                    break;
-            }
-
-            event.preventDefault();
-        });
-    })
-</script>
     </body>
 </html>
 
+ 

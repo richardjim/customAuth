@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateCampaignsTable extends Migration
+class Campaign extends Migration
 {
     /**
      * Run the migrations.
@@ -14,8 +14,8 @@ class CreateCampaignsTable extends Migration
     public function up()
     {
         Schema::create('campaigns', function (Blueprint $table) {
-            $table->id('increment');
-            $table->string('campaign_id');
+            $table->id('id');
+            $table->string('user_id');
             $table->string('name')->required();
             $table->string('domain')->required();
             $table->boolean('include_subdomain')->default(false);
