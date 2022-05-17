@@ -14,9 +14,6 @@ class NotificationController extends Controller
     {
         $this->middleware('auth');
     }
-
-
-
 // public function index(Request $request)
 //  {
    
@@ -37,9 +34,6 @@ class NotificationController extends Controller
 //         return $this->handleError($message);
 //     }
 //     }
-
-
-
   public function create(Request $request){
 // dd($request->all());
     try{
@@ -54,9 +48,7 @@ class NotificationController extends Controller
     $notification->user_id = Auth::id();
     $notification->select = $request->select;
     $notification->campaign_id = $request->campaign_id;
-  
     $notification->save();
-    
     if($notification->save()){
        // dd($notification->campaign_id);
        return response()->json([
@@ -69,9 +61,6 @@ class NotificationController extends Controller
         $message = "Error creating notification!";
         return response()->json(['message' => $message], 500); 
     }
-
-    
-
 }catch(Exception $error){
         Log::info('notificationController@index message: ' . $error->getMessage());
      $message = 'create Encountered an error.';
@@ -83,15 +72,13 @@ class NotificationController extends Controller
     }
 }
 public function update(Request $request){
-   
   try {
-      $notification = Notification::where('id', $request->id)->get();
+    //  dd($request->all());
+      $notification = Notification::where('id', $request->id)->first();
       if(!$notification){
           $message = "Notification not found!";
           return response()->json(['message' => $message], 404);
       }
-  
-      $notification = new Notification;
       $notification->select = $notification->select;
       $notification->campaign_id = $request->campaign_id;
       $notification->user_id = Auth::id();
@@ -112,14 +99,10 @@ public function update(Request $request){
       $notification->Content_Description = $request->Content_Description;
       $notification->Content_title = $request->Content_title;
       $notification->Input_Placeholder = $request->Input_Placeholder;
-      
-      
-      $notification->save();
-     
+      $notification->save(); 
       return response()->json(["message" => "Updated Successfully!",
       'notification' => $notification
   ], 200);
-  
   } catch (Exception $error) {
       Log::info($error->getMessage());
       $message = 'Sorry, unable to update. Please try again';
@@ -136,11 +119,9 @@ public function delete(Request $request){
         $message = "Notification was not found";
         return response()->json(['message' => $message], 404);
     }
-
     $notification->delete();
     $message = "Notification deleted successfully";
 return response()->json(['message' => $message]);
-
 }catch(Exception $error){
     Log::info(' ' . $error->getMessage());
     $message = 'Unable to delete Resource. Encountered an error.';
@@ -151,9 +132,7 @@ return response()->json(['message' => $message]);
     ], 500);
 }
 }
-
 // private function handleError($message){
 // // Session::put('errorMessage', $message);
 // return redirect()->back();
-
 }
